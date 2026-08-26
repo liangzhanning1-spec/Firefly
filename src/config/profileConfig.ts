@@ -24,11 +24,11 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "qq",
 			icon: "fa7-brands:qq",
-			url: "https://qm.qq.com/q/ZGsFa8qX2G",
+			url: "https://qm.qq.com/q/ed5FrdkKHK",
 			showName: false,
 		},
 		{
-			name: "GitHub",
+			name: "GitHub官方仓库",
 			icon: "fa7-brands:github",
 			url: "https://github.com/CuteLeaf",
 			showName: false,
@@ -36,7 +36,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Email",
 			icon: "fa7-solid:envelope",
-			url: "mailto:xiaye@msn.com",
+			url: "mailto:ning@ningnb.ccwu.cc",
 			showName: false,
 		},
 		{
