@@ -50,7 +50,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 			{
 				name: "失眠",
 				artist: "宁",
-				url: "/assets/music/失眠.mp3",
+				url: "/assets/music/失眠.m4a",
 				cover: "/assets/music/cover/109951169585655912.webp",
 				lrc: "",
 			},
