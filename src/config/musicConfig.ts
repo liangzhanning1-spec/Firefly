@@ -54,6 +54,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/12345678.webp",
 				lrc: "",
 			},
+			{
+				name: "无人之岛",
+				artist: "宁",
+				url: "/assets/music/无人之岛.m4a",
+				cover: "/assets/music/cover/123456.webp",
+				lrc: "",
+			},
 		],
 	},
 };
