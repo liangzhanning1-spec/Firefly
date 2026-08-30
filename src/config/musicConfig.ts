@@ -61,6 +61,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				cover: "/assets/music/cover/123456.webp",
 				lrc: "",
 			},
+            {
+				name: "失控",
+				artist: "宁",
+				url: "/assets/music/失控.flac",
+				cover: "/assets/music/cover/111222.webp",
+				lrc: "",
+			},
 		],
 	},
 };
