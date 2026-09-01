@@ -4,7 +4,7 @@ import { resolveSiteLang } from "../utils/site-config-utils";
 
 // 定义站点语言
 // 语言代码，例如：'zh_CN', 'zh_TW', 'en', 'ja', 'ru', 'ko'。
-const SITE_LANG = "zh_CN";
+const SITE_LANG = resolveSiteLang("zh_CN");
 
 // 页面开关配置 - 控制特定页面的访问权限，设为false会返回404并自动隐藏对应的导航栏菜单项
 const pages = resolvePageToggles({
@@ -122,12 +122,15 @@ export const siteConfig: SiteConfig = {
 		menuAlign: "center",
 		// 导航栏图标和标题是否跟随主题色
 		followTheme: false,
-		// 导航栏是否固定在顶部并始终可见
-		stickyNavbar: true,
+		// 导航栏模式navbarMode：
+		// "static"：不固定，随页面滚动消失
+		// "fixed"：固定在顶部常显
+		// "dynamic"：固定在顶部，下滑隐藏、轻微上滑显示
+		navbarMode: "dynamic",
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2026-08-26",
+	siteStartDate: "2025-01-01",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
