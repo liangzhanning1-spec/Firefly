@@ -9,7 +9,7 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "宁",
+	name: "Ning",
 
 	// 个人签名
 	bio: "Hello, I'm Ning.",
@@ -22,13 +22,7 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
 		{
-			name: "qq",
-			icon: "fa7-brands:qq",
-			url: "https://qm.qq.com/q/ed5FrdkKHK",
-			showName: false,
-		},
-		{
-			name: "GitHub官方仓库",
+			name: "GitHub",
 			icon: "fa7-brands:github",
 			url: "https://github.com/CuteLeaf",
 			showName: false,
