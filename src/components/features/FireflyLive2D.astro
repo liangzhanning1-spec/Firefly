@@ -1,4 +1,97 @@
 ---
 ---
 
-<script src="/pio/firefly-loader.js"></script>
+<script is:inline>
+	window.FireflyLive2DConfig = {
+		// 左侧显示
+		side: "left",
+
+		// 桌面端尺寸
+		width: 420,
+		height: 420,
+
+		// 模型大小
+		scale: 0.94,
+
+		// 模型位置微调
+		offsetX: -20,
+		offsetY: 12,
+
+		// 层级
+		zIndex: 52,
+
+		// 允许触摸设备显示
+		allowTouch: true,
+
+		// 手机 / 平板尺寸
+		touchWidth: 260,
+		touchHeight: 360,
+		touchScale: 0.9,
+		touchOffsetX: -12,
+		touchOffsetY: 8,
+
+		// 欢迎语
+		welcome: "开拓者，我回来啦~",
+
+		// 自动根据网页标题说话
+		pageTitleMessage: true,
+		pageTitleTemplate: "又在看 {title} 呀~",
+
+		// 切回网页时
+		returnMessage: "欢迎回来~",
+
+		// 鼠标悬停链接时提示
+		linkHoverMessage: true,
+		linkHoverDelay: 1400,
+
+		// 触摸设备长按链接
+		linkLongPressDelay: 650,
+
+		// 复制文字后的提示
+		copyMessage: "复制好啦，希望能帮到你~",
+
+		// 到达页面底部
+		bottomMessage: "已经看到页面底部啦，辛苦了~",
+
+		// 空闲时偶尔说话
+		idleMessages: [
+			"在忙什么呢？也要记得休息呀~",
+			"累了的话，就稍微休息一下吧。",
+			"我会一直陪着你的，开拓者。",
+		],
+
+		idleMessageDelay: 90000,
+		idleMessageInterval: 120000,
+
+		// 点击模型其他位置时随机互动
+		fallbackClick: true,
+
+		// 表情持续时间
+		expressionDuration: 4200,
+
+		// 消息框与模型距离
+		dialogGap: 24,
+
+		// 返回首页
+		homeUrl: "/",
+
+		// 流萤资料页
+		profileUrl:
+			"https://bbs.mihoyo.com/sr/wiki/content/2674/detail?bbs_presentation_style=no_header",
+
+		profileHint: "我叫流萤，想要更多了解我吗？",
+
+		// 桌面端低于这个宽度不显示
+		// 触摸设备不受这个限制
+		minWidth: 1025,
+
+		debug: false,
+	};
+</script>
+
+<!-- Firefly Live2D 官方加载器 -->
+<script
+	is:inline
+	src="/firefly-live2d/firefly-loader.js"
+	defer
+></script>
